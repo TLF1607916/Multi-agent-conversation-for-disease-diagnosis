@@ -1,7 +1,7 @@
 [
     {
         "model": "gpt-3.5-turbo-0125",
-        "api_key": "your api key",  
+        "api_key": "your api key",
         "base_url": "If using a third party, please provide the third party's website",
         "tags": [
             "x_gpt35_turbo",
@@ -17,15 +17,15 @@
         ]
     },
     {
-        "model": "gpt-4o",
-        "api_key": "",
-        "base_url": "",
+        "model": "gpt-4o-mini",
+        "api_key": "sk-M5fl39rwLRMaQOhMVZymX2JdbMOG5tphBTX8yms8Ctwh4uLR",
+        "base_url": "https://xiaoai.plus/v1",
         "tags": [
             "x_gpt4o"
         ]
     },
     {
-        "model": "llama3.1", 
+        "model": "llama3.1",
         "api_key": "NotRequired",
         "base_url": "http://0.0.0.0:4000",
         "tags": [

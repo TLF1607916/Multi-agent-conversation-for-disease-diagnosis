@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument(
         "--model_name",
         type=str,
-        default="x_gpt35_turbo",
+        default="x_gpt4o",
         choices=["x_gpt35_turbo", "x_gpt4_turbo", "x_gpt4o"],
         help="the llm models",
     )
@@ -211,7 +211,7 @@ def main():
         "cache_seed": None,
         "temperature": 1,
         "config_list": config_list,
-        "timeout": 300,
+        "timeout": 3000,
     }
 
     dataset = MedDataset(dataname=args.dataset_name)
@@ -230,4 +230,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
